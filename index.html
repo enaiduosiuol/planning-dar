@@ -12,10 +12,15 @@
         .loader { text-align: center; font-style: italic; color: #666; margin-top: 50px; }
         .day-card { background: var(--card); border-radius: 10px; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
         .day-title { font-size: 1.2em; font-weight: bold; color: var(--primary); border-bottom: 2px solid #e0e0e0; padding-bottom: 5px; margin-bottom: 10px; }
-        .post-row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid #f0f0f0; }
+        
+        /* C'EST ICI QUE L'AFFICHAGE A CHANGÉ */
+        .post-row { display: flex; align-items: center; padding: 5px 0; border-bottom: 1px solid #f0f0f0; }
         .post-row:last-child { border-bottom: none; }
-        .post-name { font-weight: bold; color: #e9af2f; } /* Couleur pour le poste */
-        .doctor-name { font-weight: 500; }
+        
+        /* On donne une largeur fixe au poste pour que tous les noms de médecins s'alignent parfaitement juste à côté */
+        .post-name { font-weight: bold; color: #e9af2f; width: 70px; flex-shrink: 0; } 
+        
+        .doctor-name { font-weight: 500; border-left: 2px solid #f0f0f0; padding-left: 10px; }
     </style>
 </head>
 <body>
@@ -25,7 +30,7 @@
     </div>
 
     <script>
-        // ⚠️ REMPLACE CELA PAR L'URL DONNÉE PAR GOOGLE APPS SCRIPT
+        // ⚠️ REMETS TON URL ICI
         const API_URL = "https://script.google.com/macros/s/AKfycby0_3eIqvMKy-QnWG00-ENOG2BmSJxyjLhHZrKtjLlQc-Fn_j5dDXmRfRFbsHfqPjeYqg/exec";
 
         async function chargerPlanning() {
@@ -34,7 +39,7 @@
                 const donnees = await reponse.json();
                 
                 const conteneur = document.getElementById('app');
-                conteneur.innerHTML = ''; // On efface le loader
+                conteneur.innerHTML = ''; 
 
                 if(donnees.erreur) {
                     conteneur.innerHTML = `<div style="color:red; text-align:center;">Erreur: ${donnees.erreur}</div>`;
@@ -48,9 +53,6 @@
                     if (jour.postes.length === 0) {
                         htmlCard += `<div class="post-row"><i>Aucune donnée (planning non rempli)</i></div>`;
                     } else {
-                        // On trie alphabétiquement par poste pour que ce soit joli
-                        jour.postes.sort((a, b) => a.poste.localeCompare(b.poste));
-                        
                         jour.postes.forEach(p => {
                             htmlCard += `<div class="post-row">
                                             <span class="post-name">${p.poste}</span>
