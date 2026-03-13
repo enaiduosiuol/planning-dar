@@ -21,41 +21,18 @@
     </style>
 </head>
 <body>
-    <div class="container" id="contenu-principal" style="display: none;">
+    <div class="container">
         <h1>🏥 Planning DAR</h1>
         <div id="app"><div class="loader">Chargement du planning en cours...</div></div>
     </div>
 
     <script>
-        // 🛑 SYSTÈME DE MOT DE PASSE SIMPLE
-        const motDePasseAttendu = "DARD2026"; // <-- MODIFIE LE MOT DE PASSE ICI
-        
-        // On vérifie si le mot de passe est déjà enregistré dans le téléphone
-        let mdpSaisi = localStorage.getItem("mdp_dar");
-
-        if (mdpSaisi !== motDePasseAttendu) {
-            mdpSaisi = prompt("🔒 Ce site est privé. Veuillez entrer le mot de passe :");
-            if (mdpSaisi === motDePasseAttendu) {
-                // On sauvegarde pour ne pas lui redemander à chaque fois
-                localStorage.setItem("mdp_dar", mdpSaisi);
-            }
-        }
-
-        if (mdpSaisi === motDePasseAttendu) {
-            // Si le mot de passe est bon, on affiche le site
-            document.getElementById('contenu-principal').style.display = 'block';
-            chargerPlanning();
-        } else {
-            // Sinon on bloque tout
-            document.body.innerHTML = "<h2 style='text-align:center; color:red; margin-top:50px;'>⛔ Accès refusé</h2>";
-        }
-
-        // --- LE RESTE DU CODE NE CHANGE PAS ---
+        // Le site va chercher le fichier data.json déposé par ton Google Apps Script
         const API_URL = "data.json";
 
         async function chargerPlanning() {
             try {
-                // ... (le code ajoute un petit cache-buster pour forcer la mise à jour)
+                // Le "?v=" + new Date().getTime() force ton téléphone à télécharger la dernière version à chaque fois !
                 const reponse = await fetch(API_URL + "?v=" + new Date().getTime());
                 const donnees = await reponse.json();
                 
@@ -80,9 +57,12 @@
                     conteneur.innerHTML += htmlCard;
                 });
             } catch (erreur) {
-                document.getElementById('app').innerHTML = `<div style="color:red; text-align:center;">Erreur de connexion.</div>`;
+                document.getElementById('app').innerHTML = `<div style="color:red; text-align:center;">Erreur de connexion au planning.</div>`;
+                console.error(erreur);
             }
         }
+
+        chargerPlanning();
     </script>
 </body>
 </html>
