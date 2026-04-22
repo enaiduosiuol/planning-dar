@@ -80,9 +80,9 @@
         "telephone": null
       },
       {
-        "medecin": "CBL",
+        "medecin": "GA",
         "poste": "Réa 2°",
-        "telephone": "+33620439868"
+        "telephone": "666311467"
       },
       {
         "medecin": "RC",
@@ -139,11 +139,6 @@
         "medecin": "LO",
         "poste": "Réa 1°",
         "telephone": null
-      },
-      {
-        "medecin": "CBL",
-        "poste": "Réa 2°",
-        "telephone": "+33620439868"
       },
       {
         "medecin": "TR",
