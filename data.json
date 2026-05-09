@@ -51,9 +51,9 @@
         "telephone": "687691545"
       },
       {
-        "medecin": "CBL",
+        "medecin": "NZ",
         "poste": "Réa 1°",
-        "telephone": "+33620439868"
+        "telephone": "684310734"
       },
       {
         "medecin": "TR",
@@ -66,9 +66,9 @@
         "telephone": "689644044"
       },
       {
-        "medecin": "CBL",
+        "medecin": "RC",
         "poste": "ECMO",
-        "telephone": "+33620439868"
+        "telephone": "689644044"
       },
       {
         "medecin": "PG",
@@ -167,9 +167,9 @@
         "telephone": "630817301"
       },
       {
-        "medecin": "CBL",
+        "medecin": "RC",
         "poste": "EXT",
-        "telephone": "+33620439868"
+        "telephone": "689644044"
       }
     ]
   },
@@ -233,9 +233,9 @@
         "telephone": null
       },
       {
-        "medecin": "CBL",
+        "medecin": "RC",
         "poste": "EXT",
-        "telephone": "+33620439868"
+        "telephone": "689644044"
       }
     ]
   },
@@ -264,6 +264,11 @@
     "dateStr": "Vendredi 15 Mai",
     "timestamp": 1778796000000,
     "postes": [
+      {
+        "medecin": "PG",
+        "poste": "P",
+        "telephone": "+33661761783"
+      },
       {
         "medecin": "CBL",
         "poste": "P",
@@ -305,13 +310,8 @@
         "telephone": "630092616"
       },
       {
-        "medecin": "PG",
-        "poste": "An 3°",
-        "telephone": "+33661761783"
-      },
-      {
         "medecin": "GA",
-        "poste": "An 4°",
+        "poste": "An 3°",
         "telephone": "666311467"
       }
     ]
