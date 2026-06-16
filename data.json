@@ -473,9 +473,9 @@
     "timestamp": 1782338400000,
     "postes": [
       {
-        "medecin": "NZ",
+        "medecin": "MS",
         "poste": "P",
-        "telephone": "+33684310734"
+        "telephone": "+33687691545"
       },
       {
         "medecin": "MSK",
@@ -513,9 +513,9 @@
         "telephone": null
       },
       {
-        "medecin": "MS",
+        "medecin": "NZ",
         "poste": "An 3°",
-        "telephone": "+33687691545"
+        "telephone": "+33684310734"
       },
       {
         "medecin": "RC",
