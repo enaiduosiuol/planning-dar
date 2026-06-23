@@ -49,14 +49,14 @@
         "telephone": "+33659568451"
       },
       {
-        "medecin": "NZ",
+        "medecin": "RCO",
         "poste": "An 4°",
-        "telephone": "+33684310734"
+        "telephone": null
       },
       {
-        "medecin": "RCO",
+        "medecin": "NZ",
         "poste": "An 5°",
-        "telephone": null
+        "telephone": "+33684310734"
       },
       {
         "medecin": "AU",
