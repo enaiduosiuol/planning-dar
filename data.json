@@ -1,66 +1,5 @@
 [
   {
-    "dateStr": "Jeudi 9 Juil.",
-    "timestamp": 1783548000000,
-    "postes": [
-      {
-        "medecin": "TR",
-        "poste": "P",
-        "telephone": "+33613835189"
-      },
-      {
-        "medecin": "MSK",
-        "poste": "Réa 1°",
-        "telephone": "+33668110285"
-      },
-      {
-        "medecin": "GA",
-        "poste": "Réa 2°",
-        "telephone": "+33666311467"
-      },
-      {
-        "medecin": "EC",
-        "poste": "Réa 3°",
-        "telephone": "+33630817301"
-      },
-      {
-        "medecin": "GA",
-        "poste": "ECMO",
-        "telephone": "+33666311467"
-      },
-      {
-        "medecin": "PGU",
-        "poste": "Ao",
-        "telephone": "+33633808923"
-      },
-      {
-        "medecin": "TJ",
-        "poste": "An 1°",
-        "telephone": "+33676965552"
-      },
-      {
-        "medecin": "CR",
-        "poste": "An 2°",
-        "telephone": "+33786289408"
-      },
-      {
-        "medecin": "RC",
-        "poste": "An 3°",
-        "telephone": "+33689644044"
-      },
-      {
-        "medecin": "LB",
-        "poste": "An 4°",
-        "telephone": null
-      },
-      {
-        "medecin": "MM",
-        "poste": "EXT",
-        "telephone": "+33659568451"
-      }
-    ]
-  },
-  {
     "dateStr": "Vendredi 10 Juil.",
     "timestamp": 1783634400000,
     "postes": [
@@ -719,6 +658,67 @@
       },
       {
         "medecin": "LO",
+        "poste": "EXT",
+        "telephone": null
+      }
+    ]
+  },
+  {
+    "dateStr": "Vendredi 24 Juil.",
+    "timestamp": 1784844000000,
+    "postes": [
+      {
+        "medecin": "TR",
+        "poste": "P",
+        "telephone": "+33613835189"
+      },
+      {
+        "medecin": "CBL",
+        "poste": "Réa 1°",
+        "telephone": "+33620439868"
+      },
+      {
+        "medecin": "MS",
+        "poste": "Réa 2°",
+        "telephone": "+33687691545"
+      },
+      {
+        "medecin": "BB",
+        "poste": "Réa 3°",
+        "telephone": "+33618093554"
+      },
+      {
+        "medecin": "LB",
+        "poste": "ECMO",
+        "telephone": null
+      },
+      {
+        "medecin": "PG",
+        "poste": "AC",
+        "telephone": "+33661761783"
+      },
+      {
+        "medecin": "FB",
+        "poste": "Ao",
+        "telephone": "+33630092616"
+      },
+      {
+        "medecin": "LB",
+        "poste": "An 1°",
+        "telephone": null
+      },
+      {
+        "medecin": "CR",
+        "poste": "An 2°",
+        "telephone": "+33786289408"
+      },
+      {
+        "medecin": "NZ",
+        "poste": "An 3°",
+        "telephone": "+33684310734"
+      },
+      {
+        "medecin": "RCO",
         "poste": "EXT",
         "telephone": null
       }
