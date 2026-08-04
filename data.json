@@ -346,14 +346,14 @@
     "timestamp": 1786399200000,
     "postes": [
       {
-        "medecin": "NZ",
+        "medecin": "BB",
         "poste": "P",
-        "telephone": "+33684310734"
+        "telephone": "+33618093554"
       },
       {
-        "medecin": "BB",
+        "medecin": "NZ",
         "poste": "Réa 1°",
-        "telephone": "+33618093554"
+        "telephone": "+33684310734"
       },
       {
         "medecin": "TR",
@@ -407,9 +407,9 @@
     "timestamp": 1786485600000,
     "postes": [
       {
-        "medecin": "BB",
+        "medecin": "NZ",
         "poste": "P",
-        "telephone": "+33618093554"
+        "telephone": "+33684310734"
       },
       {
         "medecin": "CBL",
@@ -478,9 +478,9 @@
         "telephone": "+33670721095"
       },
       {
-        "medecin": "NZ",
+        "medecin": "BB",
         "poste": "Réa 2°",
-        "telephone": "+33684310734"
+        "telephone": "+33618093554"
       },
       {
         "medecin": "GA",
