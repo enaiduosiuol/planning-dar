@@ -95,9 +95,9 @@
         "telephone": "+33622054893"
       },
       {
-        "medecin": "JM",
+        "medecin": "TJ",
         "poste": "Ao",
-        "telephone": null
+        "telephone": "+33676965552"
       },
       {
         "medecin": "PGU",
@@ -125,9 +125,9 @@
         "telephone": "+33630817301"
       },
       {
-        "medecin": "TJ",
+        "medecin": "JM",
         "poste": "EXT",
-        "telephone": "+33676965552"
+        "telephone": null
       }
     ]
   },
@@ -166,9 +166,9 @@
         "telephone": "+33630092616"
       },
       {
-        "medecin": "TJ",
+        "medecin": "JM",
         "poste": "Ao",
-        "telephone": "+33676965552"
+        "telephone": null
       },
       {
         "medecin": "RCO",
@@ -242,9 +242,9 @@
         "telephone": "+33786289408"
       },
       {
-        "medecin": "JM",
+        "medecin": "TJ",
         "poste": "An 3°",
-        "telephone": null
+        "telephone": "+33676965552"
       },
       {
         "medecin": "RC",
