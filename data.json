@@ -508,9 +508,9 @@
         "telephone": "+33668110285"
       },
       {
-        "medecin": "AU",
+        "medecin": "RCO",
         "poste": "Réa 2°",
-        "telephone": "+33622054893"
+        "telephone": null
       },
       {
         "medecin": "PGU",
@@ -548,9 +548,9 @@
         "telephone": null
       },
       {
-        "medecin": "RCO",
+        "medecin": "AU",
         "poste": "EXT",
-        "telephone": null
+        "telephone": "+33622054893"
       }
     ]
   },
